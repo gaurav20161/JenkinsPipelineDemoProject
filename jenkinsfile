@@ -25,7 +25,7 @@ echo "Compiling the Project.........."
 }
 stage('Deploy') 
 {
-steps{sh "Deploying the Project.........."
+steps{echo "Deploying the Project.........."
 }
 }
 }
